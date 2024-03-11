@@ -1,0 +1,12 @@
+{
+  "name": "create-c",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchexec -e c 'gcc -o output main.c && ./output'"
+  },
+  "keywords": [],
+  "author": "lijiapeng001",
+  "license": "ISC"
+}
