@@ -8,11 +8,9 @@
 #### 简单版本
 
 ```bash
-npm run watch
+npm run dev
 ```
 
 #### makefile
-
-暂未更新
 
 
