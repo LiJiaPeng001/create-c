@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "watchexec -w ./src -c 'gcc -o output ./src/main.c && ./output'"
+    "dev:basic": "watchexec -w ./src 'gcc -o output ./src/basic.c && ./output'",
+    "dev:s": "watchexec -w ./src 'gcc -o output ./src/storage.c && ./output'",
+    "dev": "watchexec -w ./src 'gcc -o output ./src/main.c && ./output'"
   },
   "keywords": [],
   "author": "lijiapeng001",

@@ -3,10 +3,9 @@
 
 int main()
 {
-  double a, b, c,s;
-  a = 3.67;
-  b = 2.34;
-  c = 1.22;
-  s = sqrt((a + b + c) / 2);
-  printf("%f", s);
+  char c1, c2;
+  c1 = getchar();
+  c2 = c1 + 32;
+  printf("大写字母:%c\n小写字母：%c\n", c1, c2);
+  return 0;
 }
