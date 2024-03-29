@@ -7,6 +7,7 @@
     "dev:basic": "watchexec -w ./src 'gcc -o output ./src/basic.c && ./output'",
     "dev:s": "watchexec -w ./src 'gcc -o output ./src/storage.c && ./output'",
     "dev:p": "watchexec -w ./src 'gcc -o output ./src/process.c && ./output'",
+    "dev:f": "watchexec -w ./src 'gcc -o output ./src/fn.c && ./output'",
     "dev": "watchexec -w ./src 'gcc -o output ./src/main.c && ./output'"
   },
   "keywords": [],

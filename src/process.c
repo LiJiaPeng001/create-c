@@ -48,13 +48,20 @@ int main()
   }
   // switch
   char d = 'a';
-  switch(d)
+  switch (d)
   {
-    case 'a':
-      printf("a\n");
-      break;
-    case 'b':
-      printf("b\n");
-      break;
+  case 'a':
+    // printf("a\n");
+    break;
+  case 'b':
+    // printf("b\n");
+    break;
   }
+  // goto
+  const int maxInput = 100;
+  goto jump;
+jump:
+  printf("我是jump = %d", maxInput);
+
+  return 0;
 }
