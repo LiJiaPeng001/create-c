@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "*.js": "javascript",
+    "*.cjson": "jsonc",
+    "*.wxss": "css",
+    "*.wxs": "javascript",
+    "*.ftl": "html",
+    "string.h": "c"
+  }
+}
